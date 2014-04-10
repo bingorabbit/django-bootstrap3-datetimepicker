@@ -70,10 +70,10 @@ class DateTimePicker(DateTimeInput):
     
     html_template = '''
         <div%(div_attrs)s>
-            <input%(input_attrs)s/>
             <span class="input-group-addon">
                 <span%(icon_attrs)s></span>
             </span>
+ 	    <input%(input_attrs)s/>
         </div>'''
     
     js_template = '''
